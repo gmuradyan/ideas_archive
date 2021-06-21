@@ -1,0 +1,16 @@
+#user_content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+
+    li {
+        list-style-type: none;
+        box-shadow: 0px 3px lavender;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #user_content {
+        width: auto;
+    }
+}
